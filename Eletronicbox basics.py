@@ -1,5 +1,10 @@
 
+##### Primei pedimos uma quantia inicial de saqye , que seja maior que zero e menor que 600 reais.
+
 saque = int(input("Digite o Valor de Saque ate R$ 600,00: "))
+
+# adicionamos as variaveis para os comandos if funcionarem
+
 notas_dez =  saque // 100 // 10
 moedas_umreal = saque // 100 // 10 // 1
 
